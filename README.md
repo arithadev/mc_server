@@ -10,3 +10,4 @@ Files include:
 - mod list
 - config files
 - server files
+- datapacks
