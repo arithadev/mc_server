@@ -5,6 +5,7 @@
 - Mod loader: Fabric
 ---
 Files include:
+- server rules
 - mod roadmap
 - mod list
 - config files
