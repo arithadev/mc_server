@@ -11,3 +11,4 @@ Files include:
 - config files
 - server files
 - datapacks
+- list of minecraft resources
