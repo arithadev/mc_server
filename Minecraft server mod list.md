@@ -81,6 +81,7 @@ cssclasses:
 | [Create Oxidized](https://modrinth.com/mod/create_oxidized)                                |             | Server            |         |
 | [Create Mechanical Extruder](https://modrinth.com/mod/create-mechanical-extruder)          |             | Client and Server |         |
 | [Create Sifting](https://modrinth.com/mod/create-sifting)                                  |             | Client and Server |         |
+| [Create Extended Cogwheels](https://modrinth.com/mod/extended-cogwheels)                   |             | Client and Server |         |
 - Mechanics:
 
 | Mod                                                                                                   | Description                     | Environment       | Install |
