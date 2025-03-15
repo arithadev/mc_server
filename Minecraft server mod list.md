@@ -8,6 +8,7 @@ Links:
 Sources:
   - https://modrinth.com/mods
 cssclasses:
+  - full-width
 ---
 ---
 ## Server details:
@@ -17,19 +18,19 @@ cssclasses:
 #### Server:
 - Basics:
 
-| Mod                                                                                                                                 | Description                        | Environment       | Install |
-| ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- | ----------------- | ------- |
-| [Falling tree](https://modrinth.com/mod/fallingtree)                                                                                | Easier tree breaking               | Server            |         |
-| [Ore Harvester](https://modrinth.com/mod/ore-harvester)                                                                             | Easier ore mining                  | Client and Server |         |
-| [Veinminer](https://modrinth.com/datapack/veinminer) + [Veinminer Enchantment](https://modrinth.com/datapack/veinminer-enchantment) | (Alternative to Ore Harvester)     | Client and Server |         |
-| [RightClickHarvest](https://modrinth.com/mod/rightclickharvest)                                                                     | Auto replanting                    | Server            |         |
-| [Harvest with ease](https://modrinth.com/mod/harvest-with-ease)                                                                     | (Alternative to RightClickHarvest) | Server            |         |
-| [Waystones](https://modrinth.com/mod/waystones)                                                                                     | Teleporting                        | Client and Server |         |
-| [Carry On](https://modrinth.com/mod/carry-on)                                                                                       | Carry entities and mobs            | Client and Server |         |
-| [Inventory Management](https://modrinth.com/mod/inventory-management)                                                               | Easy inventory management          | Client and Server |         |
-| [Horse Buff](https://modrinth.com/mod/horsebuff)                                                                                    | Better horse mechanics             | Client and Server |         |
-| [Just Enough Items](https://modrinth.com/mod/jei)                                                                                   | Recipe HUD overhaul                | Client and Server |         |
-| [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat)                                                                  | Proximity voice chat               | Client and Server |         |
+| Mod                                                                                                                                 | Description                        | Environment       | Install (Server) | Install (Client) | Notes                                                   |
+| ----------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- | ----------------- | ---------------- | ---------------- | ------------------------------------------------------- |
+| [Falling tree](https://modrinth.com/mod/fallingtree)                                                                                | Easier tree breaking               | Server            | X                |                  |                                                         |
+| ~~[Ore Harvester](https://modrinth.com/mod/ore-harvester)~~                                                                         | Easier ore mining                  | Client and Server |                  |                  |                                                         |
+| [Veinminer](https://modrinth.com/datapack/veinminer) + [Veinminer Enchantment](https://modrinth.com/datapack/veinminer-enchantment) | (Alternative to Ore Harvester)     | Server            | X                |                  | Enchant addon available for 1.21<br>Version: 2.03 works |
+| [RightClickHarvest](https://modrinth.com/mod/rightclickharvest)                                                                     | Auto replanting                    | Server            | X                |                  |                                                         |
+| ~~[Harvest with ease](https://modrinth.com/mod/harvest-with-ease)~~                                                                 | (Alternative to RightClickHarvest) | Server            |                  |                  |                                                         |
+| [Waystones](https://modrinth.com/mod/waystones)                                                                                     | Teleporting                        | Client and Server | X                | X                |                                                         |
+| [Carry On](https://modrinth.com/mod/carry-on)                                                                                       | Carry entities and mobs            | Client and Server | X                | X                |                                                         |
+| [Inventory Management](https://modrinth.com/mod/inventory-management)                                                               | Easy inventory management          | Client and Server | X                | X                |                                                         |
+| [Horse Buff](https://modrinth.com/mod/horsebuff)                                                                                    | Better horse mechanics             | Client and Server | X                | X                |                                                         |
+| [Just Enough Items](https://modrinth.com/mod/jei)                                                                                   | Recipe HUD overhaul                | Client and Server | X                | X                |                                                         |
+| [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat)                                                                  | Proximity voice chat               | Client and Server |                  |                  |                                                         |
 - Performance:
 
 | Mod                                                  | Description | Environment       | Install |
@@ -54,34 +55,37 @@ cssclasses:
 | [Inv View](https://modrinth.com/mod/invview)                          |             | Server            |         |
 | [ViaFabric](https://modrinth.com/mod/viafabric)                       |             | Server            |         |
 | [Configured](https://www.curseforge.com/minecraft/mc-mods/configured) |             | Server            |         |
-- Create:
+- Machines:
 
-| Mod                                                                                        | Description | Environment       | Install |
-| ------------------------------------------------------------------------------------------ | ----------- | ----------------- | ------- |
-| [Create Fabric](https://modrinth.com/mod/create-fabric)                                    |             | Client and Server |         |
-| [Create Big Cannons](https://modrinth.com/mod/create-big-cannons)                          |             | Client and Server |         |
-| [Create Deco](https://modrinth.com/mod/create-deco)                                        |             | Client and Server |         |
-| [Create Diesel Generators](https://modrinth.com/mod/create-diesel-generators-fabric)       |             | Client and Server |         |
-| [Create Enchantment Industry](https://modrinth.com/mod/create-enchantment-industry-fabric) |             | Client and Server |         |
-| [Create Goggles](https://modrinth.com/mod/create-goggles)                                  |             | Client and Server |         |
-| [Create Slice & Dice](https://modrinth.com/mod/slice-and-dice)                             |             | Client and Server |         |
-| [Create Bells & Whistles](https://modrinth.com/mod/bellsandwhistles)                       |             | Client and Server |         |
-| [Create Connected](https://modrinth.com/mod/create-connected-fabric)                       |             | Client and Server |         |
-| [Create Copycats+](https://modrinth.com/mod/copycats)                                      |             | Client and Server |         |
-| [Create Dreams & Desires](https://modrinth.com/mod/create-dreams-and-desires)              |             | Client and Server |         |
-| [Create Interactive](https://modrinth.com/mod/interactive)                                 |             | Client and Server |         |
-| [Create Interiors](https://modrinth.com/mod/interiors)                                     |             | Client and Server |         |
-| [Create Numismatics](https://modrinth.com/mod/numismatics)                                 |             | Client and Server |         |
-| [Create Power Loader](https://modrinth.com/mod/create-power-loader-fabric)                 |             | Client and Server |         |
-| [Create Steam n Rails](https://modrinth.com/mod/create-steam-n-rails)                      |             | Client and Server |         |
-| [Create Trading floor](https://modrinth.com/mod/create-trading-floor)                      |             | Client and Server |         |
-| [Create Crafts & Additions](https://modrinth.com/mod/createaddition)                       |             | Client and Server |         |
-| [Create New Age](https://modrinth.com/mod/create-new-age)                                  |             | Client and Server |         |
-| [Create Ore Excavation](https://modrinth.com/mod/create-ore-excavation)                    |             | Client and Server |         |
-| [Create Oxidized](https://modrinth.com/mod/create_oxidized)                                |             | Server            |         |
-| [Create Mechanical Extruder](https://modrinth.com/mod/create-mechanical-extruder)          |             | Client and Server |         |
-| [Create Sifting](https://modrinth.com/mod/create-sifting)                                  |             | Client and Server |         |
-| [Create Extended Cogwheels](https://modrinth.com/mod/extended-cogwheels)                   |             | Client and Server |         |
+| Mod                                                                                        | Description | Environment       | Install (Server) | Install (Client) |                                            |
+| ------------------------------------------------------------------------------------------ | ----------- | ----------------- | ---------------- | ---------------- | ------------------------------------------ |
+| [Create Fabric](https://modrinth.com/mod/create-fabric)                                    |             | Client and Server | X                | X                |                                            |
+| [Create Big Cannons](https://modrinth.com/mod/create-big-cannons)                          |             | Client and Server | X                | X                |                                            |
+| [Create Deco](https://modrinth.com/mod/create-deco)                                        |             | Client and Server | X                | X                |                                            |
+| [Create Diesel Generators](https://modrinth.com/mod/create-diesel-generators-fabric)       |             | Client and Server | X                | X                |                                            |
+| [Create Enchantment Industry](https://modrinth.com/mod/create-enchantment-industry-fabric) |             | Client and Server | X                | X                |                                            |
+| [Create Goggles](https://modrinth.com/mod/create-goggles)                                  |             | Client and Server | X                | X                |                                            |
+| [Create Slice & Dice](https://modrinth.com/mod/slice-and-dice)                             |             | Client and Server | X                | X                |                                            |
+| [Create Bells & Whistles](https://modrinth.com/mod/bellsandwhistles)                       |             | Client and Server | X                | X                |                                            |
+| [Create Connected](https://modrinth.com/mod/create-connected-fabric)                       |             | Client and Server | X                | X                |                                            |
+| [Create Copycats+](https://modrinth.com/mod/copycats)                                      |             | Client and Server | X                | X                |                                            |
+| [Create Dreams & Desires](https://modrinth.com/mod/create-dreams-and-desires)              |             | Client and Server | X                | X                |                                            |
+| [Create Interactive](https://modrinth.com/mod/interactive)                                 |             | Client and Server |                  |                  | Incompatible with 1.20.1 version of create |
+| [Create Interiors](https://modrinth.com/mod/interiors)                                     |             | Client and Server | X                | X                |                                            |
+| [Create Numismatics](https://modrinth.com/mod/numismatics)                                 |             | Client and Server | X                | X                |                                            |
+| [Create Power Loader](https://modrinth.com/mod/create-power-loader-fabric)                 |             | Client and Server | X                | X                |                                            |
+| [Create Steam n Rails](https://modrinth.com/mod/create-steam-n-rails)                      |             | Client and Server | X                | X                |                                            |
+| [Create Trading floor](https://modrinth.com/mod/create-trading-floor)                      |             | Client and Server | X                | X                |                                            |
+| [Create Crafts & Additions](https://modrinth.com/mod/createaddition)                       |             | Client and Server | X                | X                |                                            |
+| [Create New Age](https://modrinth.com/mod/create-new-age)                                  |             | Client and Server | X                | X                |                                            |
+| [Create Ore Excavation](https://modrinth.com/mod/create-ore-excavation)                    |             | Client and Server | X                | X                |                                            |
+| [Create Oxidized](https://modrinth.com/mod/create_oxidized)                                |             | Server            | X                | X                |                                            |
+| [Create Mechanical Extruder](https://modrinth.com/mod/create-mechanical-extruder)          |             | Client and Server |                  |                  | Only on forge                              |
+| [Create Sifting](https://modrinth.com/mod/create-sifting)                                  |             | Client and Server | X                | X                |                                            |
+| [Create Extended Cogwheels](https://modrinth.com/mod/extended-cogwheels)                   |             | Client and Server | X                | X                |                                            |
+| [Create Utilities](https://modrinth.com/mod/create-utilities)                              |             | Client and Server | X                | X                |                                            |
+| [Create Storage](https://modrinth.com/mod/fxnt-create-storage)                             |             | Client and Server |                  |                  | Incompatible with 1.20.1 version of create |
+| [Applied Energistics 2](https://modrinth.com/mod/ae2)                                      |             | Client and Server | X                | X                |                                            |
 - Mechanics:
 
 | Mod                                                                                                   | Description                     | Environment       | Install |
@@ -135,20 +139,20 @@ cssclasses:
 |                                                                                        |                                 |                   |         |
 - Decoration:
 
-| Mod                                                                                 | Description | Environment       | Install |
-| ----------------------------------------------------------------------------------- | ----------- | ----------------- | ------- |
-| [Hellion's Sniffer +](https://modrinth.com/mod/hellions-sniffer+)                   |             | Client and Server |         |
-| [Customizable Elytra](https://modrinth.com/mod/customizable-elytra)                 |             | Client and Server |         |
-| [Supplementaries](https://modrinth.com/mod/supplementaries)                         |             | Client and Server |         |
-| [Supplementaries Squared](https://modrinth.com/mod/supplementaries-squared)         |             | Client and Server |         |
-| [Amendments](https://modrinth.com/mod/amendments)                                   |             | Client and Server |         |
-| [Mo Glass](https://modrinth.com/mod/mo-glass)                                       |             | Client and Server |         |
-| [Better Lily Pads](https://modrinth.com/mod/better-lily-pads)                       |             | Client and Server |         |
-| [Additional Lights](https://www.curseforge.com/minecraft/mc-mods/additional-lights) |             | Client and Server |         |
-| [Display Case](https://modrinth.com/mod/displaycase)                                |             | Client and Server |         |
-| [Dramatic Doors](https://modrinth.com/mod/dramatic-doors)                           |             | Client and Server |         |
-| [More Chests Variants](https://modrinth.com/mod/more-chest-variants-lieonlion)      |             | Client and Server |         |
-| [Comforts](https://modrinth.com/mod/comforts)                                       |             | Client and Server |         |
+| Mod                                                                                 | Description | Environment       | Install (Server) | Install (Client) |
+| ----------------------------------------------------------------------------------- | ----------- | ----------------- | ---------------- | ---------------- |
+| [Hellion's Sniffer +](https://modrinth.com/mod/hellions-sniffer+)                   |             | Client and Server |                  |                  |
+| [Customizable Elytra](https://modrinth.com/mod/customizable-elytra)                 |             | Client and Server |                  |                  |
+| [Supplementaries](https://modrinth.com/mod/supplementaries)                         |             | Client and Server | X                | X                |
+| [Supplementaries Squared](https://modrinth.com/mod/supplementaries-squared)         |             | Client and Server | X                | X                |
+| [Amendments](https://modrinth.com/mod/amendments)                                   |             | Client and Server | X                | X                |
+| [Mo Glass](https://modrinth.com/mod/mo-glass)                                       |             | Client and Server |                  |                  |
+| [Better Lily Pads](https://modrinth.com/mod/better-lily-pads)                       |             | Client and Server |                  |                  |
+| [Additional Lights](https://www.curseforge.com/minecraft/mc-mods/additional-lights) |             | Client and Server |                  |                  |
+| [Display Case](https://modrinth.com/mod/displaycase)                                |             | Client and Server |                  |                  |
+| [Dramatic Doors](https://modrinth.com/mod/dramatic-doors)                           |             | Client and Server |                  |                  |
+| [More Chests Variants](https://modrinth.com/mod/more-chest-variants-lieonlion)      |             | Client and Server |                  |                  |
+| [Comforts](https://modrinth.com/mod/comforts)                                       |             | Client and Server |                  |                  |
 - Dimensions:
 
 | Mod                                                        | Description | Environment       | Install |
@@ -278,3 +282,5 @@ cssclasses:
 | [MC Dungeons Enchanting](https://modrinth.com/mod/mc-dungeons-enchanting)         |             | Client and Servers |         |
 | [MC Dungeons Artifacts](https://modrinth.com/mod/mcdar)                           |             | Client and Servers |         |
 | [Timeless and Classics Zero](https://modrinth.com/mod/timeless-and-classics-zero) |             | Client and Servers |         |
+
+---
