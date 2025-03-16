@@ -31,30 +31,35 @@ cssclasses:
 | [Horse Buff](https://modrinth.com/mod/horsebuff)                                                                                    | Better horse mechanics             | Client and Server | X                | X                |                                                         |
 | [Just Enough Items](https://modrinth.com/mod/jei)                                                                                   | Recipe HUD overhaul                | Client and Server | X                | X                |                                                         |
 | [Simple Voice Chat](https://modrinth.com/plugin/simple-voice-chat)                                                                  | Proximity voice chat               | Client and Server |                  |                  |                                                         |
+| [Universal Graves](https://modrinth.com/mod/universal-graves)                                                                       | Saves item when you die            | Server            | X                |                  |                                                         |
 - Performance:
 
-| Mod                                                  | Description | Environment       | Install |
-| ---------------------------------------------------- | ----------- | ----------------- | ------- |
-| [FerriteCore](https://modrinth.com/mod/ferrite-core) |             | Client and Server |         |
-| [Clumps](https://modrinth.com/mod/clumps)            |             | Client and Server |         |
-| [Debugify](https://modrinth.com/mod/debugify)        |             | Client and Server |         |
-| [Noisium](https://modrinth.com/mod/noisium)          |             | Server            |         |
-| [C2ME](https://modrinth.com/mod/c2me-fabric)         |             | Client and Server |         |
-| [Lithium](https://modrinth.com/mod/lithium)          |             | Client and Server |         |
-| [ServerCore](https://modrinth.com/mod/servercore)    |             | Server            |         |
-| [Chunky](https://modrinth.com/plugin/chunky)         |             | Server            |         |
+| Mod                                                             | Description | Environment       | Install (Server) | Install (Client) |
+| --------------------------------------------------------------- | ----------- | ----------------- | ---------------- | ---------------- |
+| [FerriteCore](https://modrinth.com/mod/ferrite-core)            |             | Client or Server  | X                |                  |
+| [Clumps](https://modrinth.com/mod/clumps)                       |             | Client and Server | X                |                  |
+| [Debugify](https://modrinth.com/mod/debugify)                   |             | Client or Server  | X                |                  |
+| [Noisium](https://modrinth.com/mod/noisium)                     |             | Server            | X                |                  |
+| [C2ME](https://modrinth.com/mod/c2me-fabric)                    |             | Client or Server  | X                |                  |
+| [Lithium](https://modrinth.com/mod/lithium)                     |             | Client or Server  | X                |                  |
+| [ServerCore](https://modrinth.com/mod/servercore)               |             | Server            | X                |                  |
+| [Chunky](https://modrinth.com/plugin/chunky)                    |             | Server            | X                |                  |
+| [Krypton](https://modrinth.com/mod/krypton)                     |             | Client or Server  | X                |                  |
+| [Alternate Current](https://modrinth.com/mod/alternate-current) |             | Server            | X                |                  |
 - [Admin support mods](https://www.youtube.com/watch?v=4sCxilcudKE):
 
-| Mod                                                                   | Description | Environment       | Install |
-| --------------------------------------------------------------------- | ----------- | ----------------- | ------- |
-| [Ledger](https://modrinth.com/mod/ledger)                             |             | Server            |         |
-| [Spark](https://modrinth.com/mod/spark)                               |             | Server            |         |
-| [Textile Backup](https://modrinth.com/mod/textile_backup)             |             | Client and Server |         |
-| [Carpet](https://modrinth.com/mod/carpet)                             |             | Server            |         |
-| [Vanish](https://modrinth.com/mod/vanish)                             |             | Server            |         |
-| [Inv View](https://modrinth.com/mod/invview)                          |             | Server            |         |
-| [ViaFabric](https://modrinth.com/mod/viafabric)                       |             | Server            |         |
-| [Configured](https://www.curseforge.com/minecraft/mc-mods/configured) |             | Server            |         |
+| Mod                                                                   | Description | Environment      | Install (Server) | Install (Client) | Notes                             |
+| --------------------------------------------------------------------- | ----------- | ---------------- | ---------------- | ---------------- | --------------------------------- |
+| [Ledger](https://modrinth.com/mod/ledger)                             |             | Server           |                  |                  |                                   |
+| [Spark](https://modrinth.com/mod/spark)                               |             | Server           |                  |                  |                                   |
+| [Textile Backup](https://modrinth.com/mod/textile_backup)             |             | Client or Server | X                |                  |                                   |
+| [Carpet](https://modrinth.com/mod/carpet)                             |             | Server           | X                |                  |                                   |
+| [Carpet TIS addition](https://modrinth.com/mod/carpet-tis-addition)   |             | Client or Server | X                |                  |                                   |
+| [Carpet Extra](https://modrinth.com/mod/carpet-extra)                 |             | Server           | X                |                  |                                   |
+| [Vanish](https://modrinth.com/mod/vanish)                             |             | Server           |                  |                  |                                   |
+| [Inv View](https://modrinth.com/mod/invview)                          |             | Server           |                  |                  |                                   |
+| [ViaFabric](https://modrinth.com/mod/viafabric)                       |             | Server           |                  |                  |                                   |
+| [Configured](https://www.curseforge.com/minecraft/mc-mods/configured) |             | Server           | X                |                  | Doesn't work properly with fabric |
 - Machines:
 
 | Mod                                                                                        | Description | Environment       | Install (Server) | Install (Client) |                                            |
@@ -118,7 +123,7 @@ cssclasses:
 | [Wither Spawn Animation](https://modrinth.com/mod/wither-spawn-animation)                             |                                 | Client and Server |         |
 | [Sophisticated Backpacks](<https://modrinth.com/mod/sophisticated-backpacks-(unoffical-fabric-port)>) |                                 | Client and Server |         |
 | [Easier Sleeping](https://modrinth.com/mod/easier-sleeping)                                           |                                 | Client and Server |         |
-| [Corpse](https://modrinth.com/mod/corpse)                                                             |                                 | Client and Server |         |
+| ~~[Corpse](https://modrinth.com/mod/corpse)~~                                                         |                                 | Client and Server |         |
 - GUI:
 
 | Mod                                                                               | Description                                       | Environment       | Install |
@@ -162,9 +167,10 @@ cssclasses:
 | [Deeper and Darker](https://modrinth.com/mod/deeperdarker) |             | Client and Server |         |
 - World generation:
 
-| Mod                                                          | Description | Environment       | Install |
-| ------------------------------------------------------------ | ----------- | ----------------- | ------- |
-| [Infinity Cave](https://modrinth.com/datapack/infinity-cave) |             | Client and Server |         |
+| Mod                                                          | Description | Environment       | Install (Server) | Install (Client) |
+| ------------------------------------------------------------ | ----------- | ----------------- | ---------------- | ---------------- |
+| [Infinity Cave](https://modrinth.com/datapack/infinity-cave) |             | Client and Server |                  |                  |
+| [Worldedit](https://modrinth.com/plugin/worldedit)           |             | Server            | X                |                  |
 - Nether:
 
 | Mod                                                                              | Description        | Environment       | Install |
