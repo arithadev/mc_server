@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Wrench_MC",
+      "uniqueId": "253a0db7-a9ea-41eb-bbd5-5bfb783265b3"
+    },
+    "time": 1742174594824,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/7WAwnmM1Di"
+    }
+  }
+]
