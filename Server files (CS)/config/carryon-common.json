@@ -26,7 +26,7 @@
     "//allowBabies": "Allow babies to be carried even when adult mob is blacklisted (or not whitelisted)",
     "allowBabies": false,
     "//useWhitelistBlocks": "Use Whitelist instead of Blacklist for Blocks",
-    "useWhitelistBlocks": false,
+    "useWhitelistBlocks": true,
     "//useWhitelistEntities": "Use Whitelist instead of Blacklist for Entities",
     "useWhitelistEntities": false,
     "//useWhitelistStacking": "Use Whitelist instead of Blacklist for Stacking",
@@ -61,7 +61,9 @@
     "//allowedEntities": "Entities that CAN be picked up (useWhitelistEntities must be true)",
     "allowedEntities": [],
     "//allowedBlocks": "Blocks that CAN be picked up (useWhitelistBlocks must be true)",
-    "allowedBlocks": [],
+    "allowedBlocks": [
+      "minecraft:cake"
+    ],
     "//allowedStacking": "Entities that CAN have other entities stacked on top of them (useWhitelistStacking must be true)",
     "allowedStacking": []
   },
@@ -84,7 +86,7 @@
       "minecraft:*_door",
       "minecraft:big_dripleaf_stem",
       "minecraft:waterlily",
-      "minecraft:cake",
+      "//minecraft:cake",
       "minecraft:nether_portal",
       "minecraft:tall_seagrass",
       "animania:block_trough",

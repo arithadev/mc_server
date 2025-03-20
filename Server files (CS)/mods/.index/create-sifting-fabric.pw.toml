@@ -1,0 +1,16 @@
+filename = 'createsifter-0.1.1+1.20.1.jar'
+name = 'Create Sifting Fabric'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = 'e7fd0b300ff615eafdb8e2eb42bf62b323b4c9a268fcdc482e1b1566506123eeb0337f799b34bf5a998087cd234c11ff4e0af823fa103cbde55da9a5bab4cfcb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/liAxhHx1/versions/vdY3E800/createsifter-0.1.1%2B1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'liAxhHx1'
+version = 'vdY3E800'

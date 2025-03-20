@@ -1,0 +1,16 @@
+filename = 'Veinminer-2.0.4.jar'
+name = 'Veinminer'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.19', '1.19.1', '1.19.2', '1.19.3', '1.19.4', '1.20', '1.20.1', '1.20.2', '1.20.3', '1.20.4' ]
+x-prismlauncher-release-type = 'beta'
+
+[download]
+hash = '6e924204246c53ec49f5f1d1a9fdaff7f64d18cbe53cf9cb44f0fb94c99bdcbbcf55bfa6433072895faf4d0800be8236cc5e61bd0dc6ac4a868e06928dee1cc7'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/OhduvhIc/versions/KTrObKTw/Veinminer-2.0.4.jar'
+
+[update.modrinth]
+mod-id = 'OhduvhIc'
+version = 'KTrObKTw'
