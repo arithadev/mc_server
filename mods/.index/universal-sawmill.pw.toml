@@ -1,0 +1,16 @@
+filename = 'sawmill-1.20-1.4.6-fabric.jar'
+name = 'Sawmill'
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = '47907082925b00c96f23ecf37df1f8e73dd62ad40cb39072b99387c5f8b9723eec721cba07c2c722911c24c81b4b8d581aa0b6370104003746fee188d5dbd6e6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/WRaRZdTd/versions/SSHTQlql/sawmill-1.20-1.4.6-fabric.jar'
+
+[update.modrinth]
+mod-id = 'WRaRZdTd'
+version = 'SSHTQlql'

@@ -1,0 +1,16 @@
+filename = 'YungsCaveBiomes-1.20.1-Fabric-2.0.4.jar'
+name = "YUNG's Cave Biomes"
+side = 'both'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'd9e9e37e432526d11248a05b1d43edf2de9b469fcb71fc69d93a5c2c440c74bc021faa741045058eb3bc71cc2dfbef5f9bd2ce35f96128dbc07df35fe10b24b4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cs7iGVq1/versions/Holxc5LS/YungsCaveBiomes-1.20.1-Fabric-2.0.4.jar'
+
+[update.modrinth]
+mod-id = 'cs7iGVq1'
+version = 'Holxc5LS'

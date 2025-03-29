@@ -1,0 +1,16 @@
+filename = 'xtraarrows-3.0.4.1-fabric-mc1.20.1.jar'
+name = 'Xtra Arrows'
+side = 'both'
+x-prismlauncher-loaders = [ 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.1' ]
+x-prismlauncher-release-type = 'release'
+
+[download]
+hash = 'f7d02444e9de7646d4f2b8c7d7c215364fe7135da7b35514233228146e375de9ba171ab0b24c939bf5e38fd447dda93111a969690ef03f6349a7823a349da31d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NROnqTK4/versions/DnkB4qoW/xtraarrows-3.0.4.1-fabric-mc1.20.1.jar'
+
+[update.modrinth]
+mod-id = 'NROnqTK4'
+version = 'DnkB4qoW'
